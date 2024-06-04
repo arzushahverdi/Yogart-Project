@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.about {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutinfo {
+  position: absolute;
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 280px;
+}
+
+.who_why {
+  width: 423.2px;
+  height: 615.5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  border: none;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 32px;
+  box-shadow: 0 0 32px -16px rgba(0, 0, 0, 0.5);
+}
+
+.who_why img {
+  box-sizing: border-box;
+  width: 128px;
+  height: 128px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background-color: #66a901;
+  padding: 30px;
+  border-radius: 50%;
+}
+
+.who_why p {
+  font-size: 12.8px;
+  line-height: 125%;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-indent: 2px;
+  text-transform: uppercase;
+}
+
+.who_why h3 {
+  font-size: 25px;
+  line-height: 125%;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.who_why span {
+  width: 327.19px;
+  font-size: 14px;
+  line-height: 25px;
+  letter-spacing: 1px;
+}
+
+.buttons {
+  text-decoration: none;
+}
+
+.who_why button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 192px;
+  height: 64px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #66a901;
+  line-height: 16px;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 32px;
+  cursor: pointer;
+  transition: 0.3s all ease;
+}
+
+.who_why button:hover {
+  background-color: #7fd105;
+}

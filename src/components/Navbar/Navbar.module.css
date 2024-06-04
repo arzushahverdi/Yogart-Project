@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+* {
+  box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 32px;
+}
+
+.logo {
+  display: flex;
+  gap: 30px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.logoText {
+  font-size: 30px;
+  text-decoration: none;
+  color: #fff;
+  line-height: 1.75;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+}
+.navbarpages {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.links {
+  text-decoration: none;
+  color: #fff;
+  line-height: 16px;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  transition: 0.3s all ease;
+}
+
+.links:hover {
+  color: #66a901;
+}
+.contact {
+  padding: 15px 30px;
+  color: #fff;
+  background-color: #66a901;
+  border: none;
+  border-radius: 32px;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  transition: 0.3s all ease;
+  cursor: pointer;
+}
+
+.contact:hover {
+  background-color: #7fd105;
+}

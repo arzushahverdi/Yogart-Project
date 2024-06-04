@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+* {
+  box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.pricing {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  column-gap: 20px;
+  margin: 100px;
+}
+
+.pricingboxes {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 30px;
+  box-shadow: 0 0 32px -16px rgba(0, 0, 0, 0.5);
+}
+
+.pricingboxes h1 {
+  color: #fff;
+  font-size: 35px;
+  line-height: 125%;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.pricingboxes span {
+  color: #fff;
+  opacity: 0.5;
+  font-size: 12.8px;
+  line-height: 125%;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-indent: 2px;
+  text-transform: uppercase;
+}
+
+.addtocard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 10px;
+  background-color: #fff;
+  padding: 30px;
+  box-shadow: 0 0 32px -16px rgba(0, 0, 0, 0.5);
+}
+
+.addtocard p {
+  font-size: 14px;
+  line-height: 25px;
+  letter-spacing: 1px;
+}
+
+.addtocard span {
+  width: 246px;
+  opacity: 0.5;
+  font-size: 12.8px;
+}
+
+.readmore {
+  color: #66a901;
+  text-decoration-color: #66a901;
+  font-size: 12.8px;
+  margin-bottom: 10px;
+}
+
+.readmore:hover{
+    opacity: 70%;
+}
+
+button {
+  width: 246px;
+  height: 64px;
+  border-radius: 32px;
+  border: none;
+  color: #fff;
+  line-height: 16px;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  text-transform: capitalize;
+}
+
+.button1:hover,
+.button2:hover {
+  opacity: 70%;
+}
+
+.button3:hover {
+  background-color: #7fd105 !important;
+}

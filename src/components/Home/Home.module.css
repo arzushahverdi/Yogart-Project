@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+* {
+  box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif; 
+}
+
+.home {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin: 60px 0;
+}
+
+.lefticons,
+.righticons { 
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: 0 50px;
+}
+
+.iconimg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid hsla(0, 0%, 100%, 0.16);
+  padding: 15px;
+  border-radius: 50%;
+  transition: 0.3s all ease;
+}
+
+.iconimg img {
+  width: 32px;
+  height: 32px;
+}
+
+.iconimg:hover {
+  background-color: #66a901;
+  border: none;
+}
+
+.middlebox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+}
+
+.headerbox {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerlogo {
+  width: 192px;
+  height: 192px;
+  position: absolute;
+  z-index: 0;
+  padding: 50px;
+  border-radius: 50%;
+  background-color: #66a901;
+  border: none;
+}
+
+.headerTitle {
+  position: relative;
+  z-index: 1;
+  margin: 0;
+  padding: 20px;
+  font-size: 61.04px;
+  line-height: 125%;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: #fff;
+}
+
+.firsttext {
+  color: #fff;
+  font-size: 12.8px;
+  line-height: 125%;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-indent: 2px;
+  text-transform: uppercase;
+}
+
+.mainbuttons {
+  display: flex;
+  gap: 50px;
+}
+
+.buttons1,
+.buttons2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 192px;
+  height: 64px;
+  text-decoration: none;
+  color: #fff;
+  line-height: 16px;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 32px;
+  transition: 0.3s all ease;
+}
+
+.buttons1 {
+  background-color: #66a901;
+}
+.buttons2 {
+  border: 1px solid hsla(0, 0%, 100%, 0.16);
+}
+
+.buttons2:hover {
+  background-color: #66a901;
+  border: none;
+}
+
+.buttons1:hover {
+  background-color: #7fd105;
+}

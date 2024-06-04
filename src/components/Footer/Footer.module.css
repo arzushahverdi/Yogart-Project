@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.lisenziya {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-left: 50px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.lisentext {
+  color: #fff;
+  text-decoration: none;
+  line-height: 16px;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  transition: 0.3s all ease;
+}
+
+.lisentext:hover,
+.webflowlink:hover {
+  color: #66a901;
+}
+
+.footericons {
+  display: flex;
+  gap: 20px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.iconimg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background-color: #66a901;
+  padding: 15px;
+  border-radius: 50%;
+  transition: 0.3s all ease;
+}
+
+.iconimg img {
+  width: 32px;
+  height: 32px;
+}
+
+.iconimg:hover {
+  background-color: #7fd105;
+}
+
+.footertext {
+  color: hsla(0, 0%, 100%, 0.5);
+  margin-right: 50px;
+}
+
+.webflowlink {
+  text-decoration: none;
+  color: #fff;
+  line-height: 16px;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  transition: 0.3s all ease;
+}
